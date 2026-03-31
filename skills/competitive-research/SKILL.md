@@ -35,15 +35,18 @@ Do not use this skill for:
 | Credibility | High / Medium / Low |
 | Conflict rule | Prefer user feedback over official claims unless stronger contrary evidence exists |
 | Retrieval priority | External retrieval first; local materials only for task constraints, existing context, and user-provided assets |
+| Intake mode | Mandatory progressive interactive form before research |
 | Output | In-chat summary + Markdown report |
 | File writing | Ask save path first |
 | Scoring | 10-point, lightweight, configurable |
 
 ## Intake First
 
-Always start with a short clarification round, but do it progressively.
+Always start with a mandatory clarification phase before research.
 
-Do **not** dump all intake questions at once. Ask only the next most useful question, wait for the answer, then decide what is still missing.
+Do **not** begin evidence collection, analysis, or report writing until enough information has been collected to proceed responsibly.
+
+Do **not** dump all intake questions at once. Use a **progressive interactive form**: each turn should confirm known inputs, show missing fields, and ask only for the single next most useful field.
 
 The intake should converge on these five items:
 1. Research goal
@@ -54,9 +57,15 @@ The intake should converge on these five items:
 
 If the user already gave some of them, restate those as confirmed inputs and ask only for the missing item that most affects the research plan.
 
+Interactive form pattern:
+- Show a small form state with `confirmed`, `missing`, and `next question`
+- Ask one field at a time, not a full questionnaire
+- Update the form after each answer
+- Start research only when the remaining gaps are no longer blocking
+
 Good pattern:
 - First turn: confirm the task and ask the single highest-value missing question
-- Next turn: confirm the answer and ask the next necessary question
+- Next turn: update the form state and ask the next necessary question
 - Stop asking once the research can proceed responsibly
 
 If strategy advice is requested but the user's own product context is missing, stop and ask for it before giving recommendations.
@@ -67,6 +76,7 @@ If strategy advice is requested but the user's own product context is missing, s
 - Restate the task in one sentence
 - Turn any user opinion into a testable hypothesis
 - Decide whether this is a quick scan, standard comparison, or deep dive
+- Verify that intake information is sufficient before moving on
 
 ### 2. Collect evidence broadly
 Use official sources, docs, pricing pages, launch notes, reviews, media coverage, forums, communities, social posts, and user discussions.
@@ -251,7 +261,9 @@ Avoid these failures:
 ## Final Checklist
 
 Before finishing:
+- intake was mandatory before research started
 - intake was progressive rather than a one-shot question dump
+- intake used an interactive form style rather than a flat question list
 - intake questions are answered or reasonably inferred
 - time markers are present for important claims
 - facts / observations / judgments are clearly separated
