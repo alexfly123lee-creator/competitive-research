@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "competitive-research"
+version = "0.1.0"
+description = "Repository utilities and assets for an evidence-led competitor research skill"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "alexfly123lee-creator" }
+]
+dependencies = []
+
+[project.scripts]
+competitive-research-validate = "competitive_research.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

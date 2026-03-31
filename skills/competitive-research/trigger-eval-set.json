@@ -1,0 +1,82 @@
+[
+  {
+    "query": "我们在做一个 AI 搜索产品，老板要我明天前给他一版竞品扫描。重点看看 Perplexity、ChatGPT Search、Kimi 这几个最近 3 个月在真实用户口碑、定价和定位上的变化，顺便判断有没有明显替代方案。",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我做个竞品调研，我想知道 Cursor、GitHub Copilot、Windsurf 到底谁在 AI 编程这个赛道更强。不要只看官网功能页，优先看真实用户反馈和最近更新。",
+    "should_trigger": true
+  },
+  {
+    "query": "我感觉 Notion AI 现在对很多轻量知识库工具已经是替代品了，你帮我验证一下这个判断。请把它当成一个待验证命题，不要直接顺着我的结论写。",
+    "should_trigger": true
+  },
+  {
+    "query": "我需要一份适合给管理层汇报的产品对比。对象是 Figma、Canva、Framer，另外想知道 Notion 算不算替代方案。重点比较目标用户、核心价值、价格感知和用户评价。",
+    "should_trigger": true
+  },
+  {
+    "query": "想看下 AI 会议纪要工具这一类产品现在的竞争格局，像 Read AI、Otter、Fireflies 这些。帮我先快速扫描一下市场，再挑 2 到 3 个值得深挖的。",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我比较一下国内外几家在线协作文档产品的竞争态势，不只是同类产品，也想看有没有替代工作流会抢走用户时间。",
+    "should_trigger": true
+  },
+  {
+    "query": "最近我们在讨论要不要跟进‘AI 浏览器’方向，你先帮我看下 Dia、Arc、Edge Copilot 这些产品各自怎么定位、真实体验口碑怎么样、谁的差异化最清晰。",
+    "should_trigger": true
+  },
+  {
+    "query": "给我做个 pricing comparison，不是简单抄官网价格。我想知道这些 SaaS 产品在用户眼里到底是贵还是值，最好把 Reddit、X、社区帖子里的反馈也算进去。",
+    "should_trigger": true
+  },
+  {
+    "query": "我在准备产品路线讨论，想先搞清楚谁是我们的直接竞品，谁只是替代方案。我们做的是 AI 写作工具，麻烦你先做一个竞争地图，再补一个简短结论。",
+    "should_trigger": true
+  },
+  {
+    "query": "能不能帮我做一版竞争定位分析？我不只想看功能表，我更关心这些互联网产品到底各自占了什么心智、谁跟谁是正面竞争、谁在用不同路径抢同一批用户。",
+    "should_trigger": true
+  },
+  {
+    "query": "你觉得 Perplexity 和 ChatGPT Search 哪个更好用？随便聊聊就行，不用查资料。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我写一个表格，把 Figma、Canva、Framer 的官网功能点整理一下，别分析，按官网文案原样摘出来就好。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想做一份 Cursor 和 Copilot 的代码实现架构对比，重点看它们插件系统怎么设计、补全链路怎么走。",
+    "should_trigger": false
+  },
+  {
+    "query": "从投资角度看，给我分析一下 Adobe 和 Figma 谁更值得长期持有，顺便估一下未来 3 年增长空间。",
+    "should_trigger": false
+  },
+  {
+    "query": "把这几家产品的 landing page 文案风格比较一下，最后帮我给我们自己写一版更像它们的首页文案。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想知道 ChatGPT、Claude、Gemini 哪个回答更像人一点，你直接凭感觉说说看，不用做研究。",
+    "should_trigger": false
+  },
+  {
+    "query": "请帮我把我收集到的 6 个 AI 产品截图分类一下，看看界面设计趋势是什么。",
+    "should_trigger": false
+  },
+  {
+    "query": "做一个 AI 产品榜单，按我个人喜好排前十就行，理由可以主观一点。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我把 Notion、Airtable、Coda 的定价页翻译成中文，并整理成一张价格表，不需要解释贵不贵。",
+    "should_trigger": false
+  },
+  {
+    "query": "我在写一篇行业观察文章，想简单提一下几家公司的新功能发布时间线。你只要按时间顺序整理事件，不用分析竞争关系。",
+    "should_trigger": false
+  }
+]
