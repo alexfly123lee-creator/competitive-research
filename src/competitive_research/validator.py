@@ -63,7 +63,7 @@ def validate_repository(repo_root: Path) -> List[str]:
       "name: competitive-research",
       "## Intake First",
       "## Research Rules",
-      "## Product Detail Minimum",
+      "## Product Detail",
       "## Report Template",
     ]
     for marker in required_markers:
