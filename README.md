@@ -99,9 +99,12 @@ The general installation rule is:
 **Example / 示例**
 
 ```bash
-mkdir -p ~/.claude/skills
 cp -R skills/competitive-research ~/.claude/skills/
 ```
+
+If your `~/.claude/skills/` directory already exists, just copy the folder into it.
+
+如果你的 `~/.claude/skills/` 已存在，直接把目录复制进去即可。
 
 ### Option B — Codex / OpenAI Agents-compatible setups
 
@@ -114,9 +117,12 @@ cp -R skills/competitive-research ~/.claude/skills/
 **Example / 示例**
 
 ```bash
-mkdir -p ~/.agents/skills
 cp -R skills/competitive-research ~/.agents/skills/
 ```
+
+If your `~/.agents/skills/` directory already exists, just copy the folder into it.
+
+如果你的 `~/.agents/skills/` 已存在，直接把目录复制进去即可。
 
 ### Option C — OpenCode user skills
 
