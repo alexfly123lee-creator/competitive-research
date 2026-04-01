@@ -15,7 +15,7 @@ Use this skill for:
 - comparing products, tools, SaaS, AI products, or workflows
 - mapping direct competitors and substitutes
 - scanning pricing, positioning, strengths, weaknesses, or momentum
-- validating or challenging a claim like “X already beat Y”
+- validating or challenging a claim like "X already beat Y"
 - preparing a competitor memo, table, or briefing for product or strategy work
 
 Do not use this skill for:
@@ -42,74 +42,50 @@ Do not use this skill for:
 
 ## Intake First
 
-Always start with a mandatory clarification phase before research.
+Always start with a mandatory clarification phase before research. Do **not** begin evidence collection, analysis, or report writing until enough information has been collected.
 
-Do **not** begin evidence collection, analysis, or report writing until enough information has been collected to proceed responsibly.
+Do **not** dump all intake questions at once. Use a **progressive interactive form**: each turn confirms known inputs, shows missing fields, and asks only the single next most useful field.
 
-Do **not** dump all intake questions at once. Use a **progressive interactive form**: each turn should confirm known inputs, show missing fields, and ask only for the single next most useful field.
-
-The intake should converge on these five items:
+Converge on five items:
 1. Research goal
 2. Competitors or products to examine
 3. Market scope / geography
 4. Output format
 5. Whether strategy advice is needed
 
-If the user already gave some of them, restate those as confirmed inputs and ask only for the missing item that most affects the research plan.
+If the user already gave some, restate as confirmed and ask only the missing item that most affects the research plan.
 
 Interactive form pattern:
-- Show a small form state with `confirmed`, `missing`, and `next question`
-- Ask one field at a time, not a full questionnaire
-- Update the form after each answer
-- Start research only when the remaining gaps are no longer blocking
+- Show form state with `confirmed`, `missing`, and `next question`
+- Ask one field at a time; update form after each answer
+- Start research only when remaining gaps are no longer blocking
 
-Good pattern:
-- First turn: confirm the task and ask the single highest-value missing question
-- Next turn: update the form state and ask the next necessary question
-- Stop asking once the research can proceed responsibly
-
-If strategy advice is requested but the user's own product context is missing, stop and ask for it before giving recommendations.
+If strategy advice is requested but the user's own product context is missing, stop and ask for it.
 
 ## Research Rules
 
 ### 1. Frame the task
-- Restate the task in one sentence
-- Turn any user opinion into a testable hypothesis
-- Decide whether this is a quick scan, standard comparison, or deep dive
-- Verify that intake information is sufficient before moving on
+- Restate the task in one sentence; turn any user opinion into a testable hypothesis
+- Classify as quick scan, standard comparison, or deep dive
 
 ### 2. Collect evidence broadly
-Use official sources, docs, pricing pages, launch notes, reviews, media coverage, forums, communities, social posts, and user discussions.
+Use official sources, docs, pricing pages, launch notes, reviews, media, forums, and user discussions. Go beyond strategic summaries—look for concrete product evidence: feature pages, pricing, changelogs, demos, app store pages, founder interviews, funding announcements.
 
-Do not stop at strategic summaries. For each important product, look for concrete product evidence such as feature pages, pricing pages, changelogs, demo pages, help docs, app store pages, launch posts, founder interviews, team pages, and financing or investor announcements when relevant.
-
-Do not treat official sources as ground truth. For internet and AI products, user feedback often surfaces usability, quality, reliability, and pricing pain earlier.
+Do not treat official sources as ground truth. User feedback often surfaces usability, quality, and pricing pain earlier.
 
 ### 3. Retrieval workflow
-- Start from the task boundary the user gave you, not from a giant open-ended search
-- Use external retrieval as the default path for competitor facts, market movement, pricing, reviews, and user sentiment
-- Use local materials only for task constraints, existing project context, and user-provided assets
-- Scan broadly first, then narrow into the most decision-relevant gaps or conflicts
-- Stop searching when evidence is sufficient to support the conclusion; do not keep searching just to make the report feel complete
+- Start from the task boundary the user gave, not an open-ended search
+- External retrieval is the default; local materials only for task constraints and user-provided assets
+- Scan broadly first, then narrow into decision-relevant gaps or conflicts
+- Stop when evidence is sufficient; do not keep searching to pad the report
 
 ### 4. Handling user-provided materials
-- Treat user-provided links, files, notes, screenshots, or product lists as inputs worth reading early
-- Use them to refine scope, vocabulary, and candidate competitors
-- Do not treat them as final truth; cross-check important claims against external evidence
+- Read user-provided links, files, notes, or screenshots early to refine scope and vocabulary
+- Cross-check important claims against external evidence
 - If user materials conflict with stronger external evidence, call out the conflict explicitly
 
 ### 5. Judge credibility holistically
-Use **High / Medium / Low**.
-
-Do not score credibility by source type alone. Evaluate:
-- evidence specificity
-- independent cross-verification
-- recency
-- community signal quality
-- whether the author appears to be a real user
-- whether the feedback includes concrete usage details
-- agreement or conflict across sources
-- decision usefulness
+Use **High / Medium / Low**. Evaluate by evidence specificity, independent cross-verification, recency, community signal quality, whether the author is a real user with concrete details, and agreement or conflict across sources.
 
 When official claims and user feedback conflict, prefer user feedback unless stronger contrary evidence exists.
 
@@ -121,119 +97,45 @@ When official claims and user feedback conflict, prefer user feedback unless str
 Never present judgment as fact.
 
 ### 7. Admit uncertainty
-If evidence is weak, stale, sparse, or conflicting:
-- say so directly
-- reduce confidence
-- avoid hard conclusions
-
-Do not fill gaps with speculation.
+If evidence is weak, stale, sparse, or conflicting: say so, reduce confidence, avoid hard conclusions. Do not fill gaps with speculation.
 
 ### 8. Score lightly
-Default scoring is **10-point** and should support comparison, not replace analysis.
-
-Default dimensions:
-- Product experience
-- Technical capability
-- Market momentum
-- Reputation / user sentiment
-
-Let the user add, remove, or rename dimensions.
+Default: **10-point**, four dimensions (Product experience, Technical capability, Market momentum, Reputation / user sentiment). Let the user customize. Scoring supports comparison, not replaces analysis.
 
 ## Output Rules
 
-Always provide:
-1. a short in-chat summary
-2. a full Markdown report
+Always provide: (1) a short in-chat summary, (2) a full Markdown report.
 
-Before writing the Markdown file, ask where to save it.
+Before writing the Markdown file, ask where to save it. Unless the user asks for a short memo, prefer richer product detail over thin strategic commentary.
 
-Unless the user explicitly asks for a short memo, prefer richer product detail over thin strategic commentary.
-
-Adapt tone and layout to the user's need:
+Adapt tone to the user's need:
 - deep research → fuller report with product details
-- briefing / decision support → tighter executive structure, but still keep key product evidence
+- briefing / decision support → tighter executive structure, but still keep key evidence
 - output language → follow the user's language
 
-## Product Detail Minimum
+## Product Detail
 
-For each important product, include as many of these as evidence reasonably allows:
-- key product page links
-- core feature pages or docs links
-- pricing page link and pricing notes
-- screenshots or visual evidence links when available and useful
-- founder or core team background
-- financing / funding / investor context when relevant
-- notable launches, changelog items, or release evidence
-- concrete workflow details, not just positioning language
+For each important product, capture as many items as possible from the checklist in `docs/methodology.md`. Key items: product page links, feature pages, pricing, screenshots, founder/team, funding, workflow details, launch evidence.
 
-Do not reduce the body to positioning and strategy alone when product detail is available.
+Never reduce the body to positioning and strategy alone when product detail is available.
 
 ## Report Template
 
-```markdown
-# [Topic]
+Use `templates/research-report.md` as the base structure. Key sections:
+1. Executive Summary
+2. Comparison Table
+3. Detailed Analysis per product (Product Snapshot → Facts → Product Details → Observations → Judgments)
+4. Strategy Implications (only if user asked and gave enough context)
+5. Information Gaps and Disputes
+6. Sources
 
-## 1. Executive Summary
-- Main conclusion
-- Key trade-offs
-- Biggest uncertainty
-
-## 2. Comparison Table
-| Product | Target user | Core value | Pricing | Key product links | Founders / team | Funding / company context | Strengths | Weaknesses | Product experience (10) | Technical capability (10) | Market momentum (10) | Reputation (10) | Confidence |
-|---|---|---|---|---|---|---|---|---|---:|---:|---:|---:|---|
-
-## 3. Detailed Analysis
-### [Product / Theme]
-#### Product Snapshot
-- Official homepage / core product page: ...
-- Key feature page(s): ...
-- Pricing page: ...
-- Visual evidence / screenshot reference: ...
-- Founder / team context: ...
-- Funding / company context: ...
-
-#### Facts
-- ... [source, date]
-
-#### Product Details
-- Key workflows, feature boundaries, onboarding, output quality, or UX details
-- What the product page promises vs what users say actually happens
-- Specific feature pages, docs, or release notes worth citing
-
-#### Observations
-- ...
-
-#### Judgments
-- ...
-
-## 4. Strategy Implications
-- Include only if the user asked for strategy advice and gave enough context
-
-## 5. Information Gaps and Disputes
-- What is still uncertain
-- Which sources conflict
-- What would change the conclusion
-
-## Sources
-- [Source title] - [URL or citation] - [date] - [credibility]
-```
+For single-product deep dives, use `templates/competitor-profile.md`.
 
 ## Evidence Standard
 
-For every high-impact conclusion include:
-- inline source markers
-- a short evidence excerpt or faithful paraphrase
-- a time marker
-- a credibility label
-- the most relevant product link when available
+For every high-impact conclusion include: inline source marker, short evidence excerpt or faithful paraphrase, time marker, credibility label, and the most relevant product link. Include screenshot links or visual evidence when useful.
 
-Whenever useful and available, include screenshot links, image references, or other visual evidence for important product pages, UI claims, or workflow details.
-
-Example flow:
-- Fact: "Several users report failed long-form exports in March 2026" [Reddit thread, 2026-03-12, Medium credibility]
-- Fact: "The product still advertises long-form export on its feature page" [Feature page URL, 2026-03-10, High credibility]
-- Observation: "The issue appears in real workflows, not just edge-case experiments."
-- Judgment: "Reliability for long-form generation is a current weakness despite strong official quality claims."
+Example: "Several users report failed long-form exports in March 2026" [Reddit thread, 2026-03-12, Medium credibility]
 
 ## Handling User Hypotheses
 
@@ -246,32 +148,22 @@ Do not organize the report to justify the user's prior belief.
 
 ## Common Mistakes
 
-Avoid these failures:
 - treating official messaging as ground truth
-- using source type as a shortcut for credibility
 - letting one viral post decide the conclusion
 - mixing facts, observations, and judgments in one bullet
 - giving strategy advice without enough context about the user's product
 - ranking competitors aggressively when evidence is mixed
 - expanding the competitor list until the report loses focus
 - hiding major information gaps behind polished writing
-- writing only strategic commentary without product page links, feature evidence, or concrete workflow detail
-- ignoring founder, team, company, or funding context when it materially explains product direction
+- writing only strategic commentary without product links or concrete evidence
 
 ## Final Checklist
 
-Before finishing:
-- intake was mandatory before research started
-- intake was progressive rather than a one-shot question dump
-- intake used an interactive form style rather than a flat question list
-- intake questions are answered or reasonably inferred
-- time markers are present for important claims
-- facts / observations / judgments are clearly separated
-- conflicting evidence is acknowledged
-- confidence labels are present
-- important conclusions have source markers and evidence snippets
-- key product links are included for major products when available
-- screenshots or visual evidence are included when useful and available
-- founder / team / funding context is included when relevant to the analysis
-- strategy section is included only when justified
-- Markdown save path was confirmed before writing the file
+- [ ] intake was progressive, not a one-shot question dump
+- [ ] time markers present for important claims
+- [ ] facts / observations / judgments clearly separated
+- [ ] conflicting evidence acknowledged
+- [ ] key product links included for major products
+- [ ] founder / team / funding context when relevant
+- [ ] strategy section only when justified
+- [ ] Markdown save path confirmed before writing

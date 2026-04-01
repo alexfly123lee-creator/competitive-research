@@ -51,6 +51,18 @@ Recommended sections:
 Every high-impact conclusion should include:
 - source marker
 - date or time context
-- credibility label
+- credibility label (High / Medium / Low)
 - evidence excerpt or faithful paraphrase
 - the most relevant product link when available
+- screenshot links or visual evidence when useful
+
+Credibility is judged holistically, not by source type alone. Evaluate:
+- evidence specificity
+- independent cross-verification
+- recency
+- community signal quality
+- whether the author appears to be a real user with concrete details
+- agreement or conflict across sources
+- decision usefulness
+
+When official claims and user feedback conflict, prefer user feedback unless stronger contrary evidence exists.
